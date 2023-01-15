@@ -37,7 +37,6 @@ sudo systemctl start tor
 ```
 sudo systemctl status tor
 ```
-
 **You're All set**
 
 # If this error occures in every OS
