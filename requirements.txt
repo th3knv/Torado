@@ -1,0 +1,3 @@
+pip install requests
+pip install socks
+pip install stem
