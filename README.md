@@ -2,6 +2,7 @@
 A script that roots all your machine traffic through TOR Network
 
 ## Note that you may need to run scrip with admin privilages
+**Firstly you need to install requirements.txt file**
 
 # Downloading Tor
 
