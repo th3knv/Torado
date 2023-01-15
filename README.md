@@ -1,8 +1,9 @@
 # Torado
-A script that roots all your machine traffic through TOR Network
+A script that roots all your machine traffic through TOR Network. It changes IP every 5 minutes (change it in your needs)
 
 ## Note that you may need to run scrip with admin privilages
 **Firstly you need to install requirements.txt file**
+
 
 # Downloading Tor
 
@@ -44,20 +45,20 @@ sudo systemctl status tor
 OSError: Process terminated: Failed to bind one of the listener ports.
 ```
 ## Check for bind ports
-## For Windows
+## For Windows open CMD and run it as Administrator
 ```
-C:\> netstat -ano | findstr :9050
+netstat -ano | findstr :9050
 ```
 **Find the PID number and KILL the task**
 ```
-C:\> taskkill /PID (PID number)          without these ()
+taskkill /PID (PID number)          without these ()
 ```
 ## For Linux
 ```
-❯ sudo lsof -i :9050
+sudo lsof -i :9050
 ```
 **Find the PID number and KILL the task**
 ```
-❯ sudo kill -9 (PID number)              without these ()
-
+sudo kill -9 (PID number)              without these ()
+```
 
