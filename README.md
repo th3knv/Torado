@@ -62,4 +62,8 @@ sudo lsof -i :9050
 ```
 sudo kill -9 (PID number)              without these ()
 ```
+## IF errors still pops up TOR Service is running. Stop the TASK
+```sudo systemctl stop tor
+```
+
 
