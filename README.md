@@ -1,5 +1,5 @@
 # Torado
-A script that routs all your machine traffic through TOR Network. It changes IP every 5 minutes (change it in your needs)
+A script that routes all your machine traffic through TOR Network. It changes IP every 5 minutes (change it in your needs)
 
 #### Now either you setup your machine with SOCK5 proxy 127.0.0.1:9050 or you setup proxy in a software (from settigns as usually)
 #### Note that you may need to run scrip with admin privilages
